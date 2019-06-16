@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072215714933",
+    "firebase_url": "https://akllreklam.firebaseio.com",
+    "project_id": "akllreklam",
+    "storage_bucket": "akllreklam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072215714933:android:df445d72a8115b71",
+        "android_client_info": {
+          "package_name": "com.example.akllreklam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072215714933-firfoqoqsi10uj8cmuojdg4vmdt4l6vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akllreklam",
+            "certificate_hash": "74e3a520551bc43da7f9443dabfd21edeb225bc8"
+          }
+        },
+        {
+          "client_id": "1072215714933-u588e7p7n08oqg5f4oqepa5dutsquf0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCny0YH-ikx-OOiT-mrHgazlrSMRutVC7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072215714933-u588e7p7n08oqg5f4oqepa5dutsquf0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YeniKayit">
+    <EditText
+        android:id="@+id/editTextKullanıcıAdı"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/Information"
+        app:layout_constraintStart_toStartOf="@+id/Information"
+        app:layout_constraintTop_toBottomOf="@+id/Information"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTekrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editTextKullanıcıAdı"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextKullanıcıAdı"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKullanıcıAdı"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonKayitTamamla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Kaydımı Tamamla"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTekrar"
+        app:layout_constraintStart_toStartOf="@+id/editTextTekrar"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTekrar"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="Lütfen Kullanıcı Adı ve Parolanızı Giriniz . . . "
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
