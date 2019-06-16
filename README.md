@@ -1,4 +1,4 @@
-# AkllReklam
+# Akllı Reklam
 
 Bu projedeki amacımız,android uygulama ile birlikle bulut bilişim teknolojisini kullanarak reklam uygulaması geliştirmektir. Projemiz iki kısımdan oluşmaktadır birincisi sunucu kısmı ikincisi ise istemci kısmıdır. 
 Kullanıcı şifresi ve kullanıcı adıyla  girdiği mobil uygulamadan, reklam veren firmaları görüntüleyebilmektedir. Ayrıca şifresini güncelleyebilmektedir.
